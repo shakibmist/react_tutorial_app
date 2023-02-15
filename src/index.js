@@ -1,5 +1,6 @@
 // import React from 'react';
 import ReactDOM from 'react-dom';
+import App from './App';
 // import './index.css';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
@@ -8,10 +9,11 @@ setInterval(()=>{
   function Clock(){
     return(
       <h1>Hello {new Date().toLocaleTimeString()}</h1>
+      
     );
     
   }
-  ReactDOM.render(<Clock /> ,document.getElementById('root'));
+  ReactDOM.render(<App /> ,document.getElementById('root'));
 },1000)
 
 

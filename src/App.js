@@ -1,15 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Clock from './component/Clock';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <h1>hello world</h1>
+        <h1><Clock locale="bn-BD"/></h1>
+        <Clock locale="bn-BD" />
       </header>
     </div>
   );
