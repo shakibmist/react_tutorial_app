@@ -5,16 +5,16 @@ import App from './App';
 // import App from './App';
 // import reportWebVitals from './reportWebVitals';
 
-setInterval(()=>{
-  function Clock(){
-    return(
-      <h1>Hello {new Date().toLocaleTimeString()}</h1>
+// setInterval(()=>{
+//   function Clock(){
+//     return(
+//       <h1>Hello {new Date().toLocaleTimeString()}</h1>
       
-    );
+//     );
     
-  }
-  ReactDOM.render(<App /> ,document.getElementById('root'));
-},1000)
+//   }
+//   ReactDOM.render(<App /> ,document.getElementById('root'));
+// },1000)
 
 
 
@@ -28,7 +28,7 @@ setInterval(()=>{
 //   );
 // }
 
-ReactDOM.render(<Clock /> ,document.getElementById('root'));
+ReactDOM.render(<App /> ,document.getElementById('root'));
 
 
 // If you want to start measuring performance in your app, pass a function
